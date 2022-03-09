@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+#main img{
+    width: 100%;
+    height: 100vh;
+}
+.listItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+/* Who We Are */
+
+.weAre{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color: green;
+    position: absolute;
+    top: 3%;
+    left: 70vh;
+    text-align: center;
+    font-size: 40px;
+}
+.div1{
+    width: 60vh;
+    margin-left: 10vh;
+}
+.div1 h2{
+    margin-bottom: 2vh;
+    color: tomato;
+}
+.div1 p{
+    font-size: 16px;
+}
+.mission{
+    height: 35vh;
+    width: 40vh;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(223, 31, 63);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 15px rgb(223, 31, 63);
+}
+.mission h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.mission p{
+    font-size: 16px;
+    color: white;
+}
+.vision{
+    height: 25vh;
+    width: 40vh;
+    margin-left: 50px;
+    margin-bottom: 0%;
+    text-align: center;
+    background-color: rgb(89, 8, 240);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    box-shadow: 5px 5px 15px rgb(89, 8, 240);
+}
+.vision h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.vision p{
+    font-size: 16px;
+    color: white;
+}
+.div4{
+    height: 48vh;
+    width: 40vh;
+    margin-left: 50px;
+    background-color: green;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 15px green;
+}
+.div4 h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.div4 p{
+    font-size: 20px;
+    color: white;  
+}
+.myIcons{
+    color: blue;
+}
+/* end of who we are */
+
+/* What We Do */
+.weDo{
+    position: relative;
+    background-color: lightblue; 
+    height: 65vh;
+}
+.card{
+    height: 32vh;
+    width: 38vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    position: relative;
+}
+.divA{
+    margin-left: 10vh;
+    background-size: cover;
+    display: flex;
+}
+.divB{
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+.text{
+    font-size: 18px;
+    margin-left: 10vh;
+}
+.tick{
+    color: green;
+}
+/* end of what we do */
+
+/* Events */
+.Events{
+    background-color: lightblue;
+    height: 120vh;
+    width: 100%;
+    position: relative;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+.event1{
+    width: 25%;
+    margin-top: 15vh;
+    background-size: cover;
+}
+.event1 img{
+    width: 45vh;
+    height: 30vh;
+    border-radius: 30px;
+}
+.event1 p{
+    font-size: 13px;
+    text-align: left;
+}
+.bottom{
+    margin-top: 81h;
+    height: 65vh;
+}
+/* end of events */
+
+/* footer */
+.footer{
+    background-color: lightblue;
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.rectangle{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+   position: absolute;
+   bottom: 0;
+   
+}
+.logo2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    top: 10%;
+    background-size: cover;
+    left: 5%;
+}
+.logo2 img{
+    height: 150px;
+    width: 150px;
+}
+.Up{
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    border-style: none;
+    right: 5%;
+    top: -30%;
+    cursor: pointer;
+}
+.Up:hover{
+    background-color: tomato;
+}
+.media{
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 18vh;
+    align-items: center;
+}
+.media p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.address{
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 48vh;
+    top: 15vh;
+}
+.address p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.location{
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 2vh;
+    left: 75vh;
+}
+.insta{
+    height: 50px;
+    margin-left: 2vh;
+}
+/* end of footer */
+
+.line{
+    display: none;
+}
+#menu{
+    display: none;
+}
+#menuItems{
+    display: none;
+    width: 120px;
+    height: fit-content;
+    background-color: lightblue;
+    position: absolute;
+    right: 5%;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 5px;
+}
+
