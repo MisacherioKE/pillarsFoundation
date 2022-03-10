@@ -221,6 +221,19 @@
         width: 15vh;
         height: 15vh;
     }
+    .partnerLogo{
+        position: absolute;
+        width: 10vh;
+        height: 10vh;
+        border-style: none;
+        top: 15%;
+        background-size: cover;
+        right: 2%;
+    }
+    .partnerLogo img{
+        width: 10vh;
+        height: 10vh;
+    }
     .Up{
         position: absolute;
         height: 50px;

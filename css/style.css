@@ -207,7 +207,7 @@
     border-style: none;
     top: 10%;
     background-size: cover;
-    left: 5%;
+    left: 2%;
 }
 .logo2 img{
     height: 150px;
@@ -258,6 +258,19 @@
 .insta{
     height: 50px;
     margin-left: 2vh;
+}
+.partnerLogo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    top: 8%;
+    background-size: cover;
+    right: 0%;
+}
+.partnerLogo img{
+    height: 100px;
+    width: 100px;
 }
 /* end of footer */
 
