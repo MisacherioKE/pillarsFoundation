@@ -12,7 +12,20 @@ document.getElementById("navBar").style.justifyContent ="space-evenly";
 document.getElementById("navBar").style.width ="100%";
 document.getElementById("navBar").style.height ="10vh";
 document.getElementById("navBar").style.backgroundColor ="lightblue";
+document.getElementById("navBar").style.position = "fixed";
+document.getElementById("navBar").style.zIndex ="100";
 
+// Progressbar animation
+const progressBar = document.querySelector("#progressBar");
+// const section = document.querySelector("section");
+
+// const animateprogressBar =()=>{
+//     let scrollDistance = -section.getBoundingClientRect().top;
+//     let progressWidth =(scrollDistance/section.getBoundingClientRect().height)*100;
+//     let value = Math.floor(progressWidth);
+//     progressBar.style.width =value+ "%";
+// }
+// window.addEventListener("scroll",animateprogressBar);
 // Items
 document.getElementById("home").style.textDecoration ="none";
 document.getElementById("home").style.color ="green";
@@ -77,4 +90,3 @@ document.getElementById("partners2").style.fontSize ="18px";
 document.getElementById("team2").style.textDecoration ="none";
 document.getElementById("team2").style.color ="green";
 document.getElementById("team2").style.fontSize ="18px";
-
